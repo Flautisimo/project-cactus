@@ -14,10 +14,9 @@ export default function Home() {
           <link rel='icon' href='/logo.png' />
         </Head>
         
-        <body className='antialiased bg-gray-500'>
+        <body className='font-sans antialiased bg-gray-300'>
         <Navigation />
-        <Hero />
-               
+        <Hero />  
         </body>
         
       </div>

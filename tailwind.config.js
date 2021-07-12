@@ -1,16 +1,3 @@
-// module.exports = {
-//   mode: 'jit',
-//   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-//   darkMode: false, // or 'media' or 'class'
-//   theme: {
-//     extend: {}
-//   },
-//   variants: {
-//     extend: {}
-//   },
-//   plugins: []
-// }
-
 const colors = require('tailwindcss/colors')
 
 module.exports = {
@@ -19,6 +6,11 @@ module.exports = {
   presets: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    extend: {
+      fontFamily: {
+        body:['Work Sans']
+      }
+    },
     screens: {
       xs: '480px',
       sm: '640px',

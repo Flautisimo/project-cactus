@@ -1,6 +1,6 @@
 export default function Navigation() {
   return (
-    <header className="lg:px-48 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2">
+    <header className="sticky top-0 z-50 lg:px-48 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2">
       <style dangerouslySetInnerHTML={{__html: "\n      #menu-toggle:checked + #menu {\n        display: block;\n      }\n  " }} />
 
       <div className="flex-1 flex justify-between items-stretch">
@@ -19,7 +19,7 @@ export default function Navigation() {
       <input type='checkbox' className='hidden' id='menu-toggle' />
       <div className='hidden lg:flex lg:items-center lg:w-auto w-full' id='menu'>
         <nav>
-          <ul className="lg:flex items-center justify-between fontFamily:Roboto font-extrabold text-darkblue pt-4 lg:pt-0 text-transform: uppercase">
+          <ul className="lg:flex items-center justify-between font-roboto font-extrabold text-darkblue pt-4 lg:pt-0 text-transform: uppercase">
             <li><a href="#" className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:text-gray-500 hover:border-darkblue">Home</a></li>
             <li><a href="#" className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:text-gray-500 hover:border-darkblue">About me</a></li>
             <li><a href="#" className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:text-gray-500 hover:border-darkblue">Contact</a></li>
@@ -27,5 +27,5 @@ export default function Navigation() {
         </nav>
       </div>
     </header>
-  );
+  )
 };
