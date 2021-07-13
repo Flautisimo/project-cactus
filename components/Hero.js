@@ -14,17 +14,3 @@ export default function Hero() {
         </section>
   )
 };
-
-{/* <div className="py-16">
-  <div className="flex-row">
-    <div className="lg:w-full lg:h-4/6 bg-white">
-      <div className="relative lg:items-end items-start w-full h-72 box-border border-8 border-white lg:w-2/6">
-        <img src="/alessio.jpg" />
-        <div className="relative items-start w-full h-72 box-border border-8 border-white bg-white lg:w-2/6">
-          <p className="w-96 h-14 font-body text-4xl px-1 py-4 leading-9 font-medium text-left text-indigo-900">About me:</p>
-          <p className="w-96 h-48 font-body text-sm px-1 py-4 leading-4 font-medium text-left text-indigo-900">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. <br /><br />Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> */}

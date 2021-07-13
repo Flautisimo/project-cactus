@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Navigation from '/components/Navigation'
 import Hero from '/components/Hero'
 import About from '../components/About'
+import Contact from '../components/Contact'
 import Footer from '/components/Footer'
 
 
@@ -19,6 +20,8 @@ export default function Home() {
         <Navigation />
         <Hero />
         <About />
+        <Contact />
+        {/* <Footer /> */}
       </body>
     </div>
   );
