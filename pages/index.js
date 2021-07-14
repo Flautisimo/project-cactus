@@ -16,13 +16,13 @@ export default function Home() {
         <link rel='icon' href='/logo.png' />
       </Head>
 
-      <body className='font-sans antialiased bg-white'>
+      <main className='font-sans antialiased bg-white'>
         <Navigation />
         <Hero />
         <About />
         <Contact />
-        {/* <Footer /> */}
-      </body>
+        <Footer />
+      </main>
     </div>
   );
 };

@@ -32,7 +32,7 @@ export default function Contact() {
 
             <div className="flex items-center">
               <input type="checkbox" id="agree" />
-              <label for="agree" required className="font-semibold uppercase ml-2 text-sm">I agree to terms and conditions.</label>
+              <label htmlFor="agree" required className="font-semibold uppercase ml-2 text-sm">I agree to terms and conditions.</label>
             </div>
 
             <button className="block w-full mb-0 font-body font-bold bg-blue-400 hover:bg-gray-500 p-3 md:p-4 rounded text-indigo-900 hover:text-white transition duration-300 uppercase">Send Message</button>

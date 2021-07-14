@@ -1,17 +1,39 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
+
 export default function Footer() {
   return (
-    <div className='flex flex-col items-center flex-1 w-full px-20 text-center'>
-    <div className="flex space-x-32 items-center justify-start pl-56 pr-60 pt-4 pb-5 bg-indigo-900" style={{ width: 1678, height: 70, }}>
-      <p className="w-1/4 h-full text-3xl font-bold tracking-widest leading-9 text-white uppercase">Alessio Muganni</p>
-      <p className="text-base font-bold text-white uppercase">Home</p>
-      <p className="text-base font-bold text-white uppercase">about me</p>
-      <p className="text-base font-bold text-white uppercase">contact</p>
-      <div className="flex space-x-14 items-center justify-end w-1/6 h-8">
-        <div className="Facebook w-8 h-full bg-white rounded-lg" src="/facebook.svg" />
-        <div className="w-8 h-full bg-white rounded-lg" />
-        <img className="w-8 h-full rounded-lg" src="https://via.placeholder.com/32x32" />
-      </div>
-    </div>
-    </div>
+    <section>
+      <footer className="Container relative bottom-0 max-h-screen md:h-auto mt-16 md:mt-20 py-8 lg:py-5 md:px-52  bg-indigo-900">
+        <div className="space-y-10 md:space-y-0 md:grid md:grid-cols-3">
+
+          {/* Left */}
+          <div className="">
+            <div className="w-full h-full text-center md:text-left justify-center bg-indigo-900 text-white font-sans font-bold text-3xl md:text-4xl tracking-widest leading-9 uppercase">
+              Alessio Muganni
+            </div>
+          </div>
+
+          {/* Center */}
+          <div className="w-full h-auto bg-indigo-900">
+            <ul className="flex flex-col md:flex-row text-center justify-around md:mt-2 font-roboto font-bold text-white text-lg md:text-xl uppercase">
+              <li><a href="#" className="block border-b-2 border-transparent hover:text-blue-300 hover:border-white">Home</a></li>
+              <li><a href="#" className="block border-b-2 border-transparent hover:text-blue-300 hover:border-white">About me</a></li>
+              <li><a href="#" className="block border-b-2 border-transparent hover:text-blue-300 hover:border-white">Contact</a></li>
+            </ul>
+          </div>
+
+          {/* Right */}
+          <div className="flex w-full md:pl-56 justify-around md:justify-between md:items-center text-white">
+            <a href="#"><FontAwesomeIcon icon={faFacebookSquare} size="2x"></FontAwesomeIcon></a>
+            <a href="#"><FontAwesomeIcon icon={faLinkedin} size="2x"></FontAwesomeIcon></a>
+            <a href="#"><FontAwesomeIcon icon={faInstagramSquare} size="2x"></FontAwesomeIcon></a>
+          </div>
+
+        </div>
+      </footer>
+    </section>
   )
 };

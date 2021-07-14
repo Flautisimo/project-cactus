@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section>
-      <div className="relative min-h-screen md:h-48 mt-32 bg-white p-10 md:px-48">
+      <div className="Container relative min-h-screen md:h-48 mt-32 bg-white p-10 md:px-48">
         <div className="space-y-10 md:space-y-0 md:grid md:grid-cols-2">
 
           {/* Left */}
