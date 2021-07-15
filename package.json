@@ -2,11 +2,13 @@
   "name": "with-tailwindcss",
   "version": "0.1.0",
   "private": false,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
@@ -24,6 +26,8 @@
     "parser": "babel-eslint"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
     "autoprefixer": "^10.2.6",
     "babel-eslint": "^10.1.0",
     "postcss": "^8.3.5",

@@ -5,17 +5,16 @@ import About from '../components/About'
 import Contact from '../components/Contact'
 import Footer from '/components/Footer'
 
-
-export default function Home() {
+export default function Home () {
   return (
 
     <div>
       <Head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width" initial-scale={1} shrink-to-fit="no" />
+        <meta charSet='utf-8' />
+        <meta name='viewport' content='width=device-width' initial-scale={1} shrink-to-fit='no' />
         <title>Alessio Muganni</title>
         <link rel='icon' href='/logo.png' />
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel='stylesheet' href='https://unpkg.com/aos@next/dist/aos.css' />
       </Head>
 
       <main className='font-sans antialiased bg-white'>
@@ -24,7 +23,7 @@ export default function Home() {
         <About />
         <Contact />
         <Footer />
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src='https://unpkg.com/aos@next/dist/aos.js' />
         <script>
           AOS.init();
         </script>
