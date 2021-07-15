@@ -7,7 +7,11 @@ export default function About () {
           {/* Left */}
           <div className=''>
             <div className='w-full h-64 rounded-lg bg-white'>
-              <img src='/alessio.jpg' className='shadow-2xl' />
+              <img
+                src='/alessio.jpg'
+                className='shadow-2xl'
+                alt='Alessio Muganni'
+              />
             </div>
           </div>
 
