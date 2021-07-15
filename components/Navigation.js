@@ -3,8 +3,8 @@ export default function Navigation () {
     <header className='sticky top-0 z-50 lg:px-48 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2 shadow-2xl'>
       <style dangerouslySetInnerHTML={{ __html: '\n      #menu-toggle:checked + #menu {\n        display: block;\n      }\n  ' }} />
       <div className='flex-1 flex justify-between items-stretch'>
-        <a href='#'>
-          <img className='w-9 h-10' src='/logo.png' />
+        <a href='https://www.linkedin.com/company/estudio-cactus'>
+          <img className='w-9 h-10' src='/logo.png' alt='Estudio Cactus' />
         </a>
       </div>
       <label htmlFor='menu-toggle' className='cursor-pointer lg:hidden'>

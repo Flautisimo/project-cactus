@@ -25,9 +25,9 @@ export default function Footer () {
 
           {/* Right */}
           <div className='flex w-full md:pl-56 justify-around md:justify-between md:items-center text-white'>
-            <a href='#'><FontAwesomeIcon icon={faFacebookSquare} size='2x' className='hover:animate-bounce' /></a>
-            <a href='#'><FontAwesomeIcon icon={faLinkedin} size='2x' className='hover:animate-bounce' /></a>
-            <a href='#'><FontAwesomeIcon icon={faInstagramSquare} size='2x' className='hover:animate-bounce' /></a>
+            <a href='https://www.facebook.com/estudiocactusmedia/'><FontAwesomeIcon icon={faFacebookSquare} size='2x' className='hover:animate-bounce' alt='Estudio Cactus'/></a>
+            <a href='https://www.linkedin.com/company/estudio-cactus/'><FontAwesomeIcon icon={faLinkedin} size='2x' className='hover:animate-bounce' alt='Estudio Cactus' /></a>
+            <a href='https://www.instagram.com/estudiocactus/'><FontAwesomeIcon icon={faInstagramSquare} size='2x' className='hover:animate-bounce' alt='Estudio Cactus' /></a>
           </div>
 
         </div>

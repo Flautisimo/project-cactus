@@ -9,12 +9,12 @@ const CustomTextInput = ({ label, ...props }) => {
     <div className='block mb-1 font-bold text-gray-500'>
       <label htmlFor={props.id || props.name}>{label}</label>
       <input
-        className='text-input' {...field} {...props}
-        className='w-full border-2 border-gray-200 p-1 md:p-3 rounded outline-none focus:border-purple-500'
+        className='text-input w-full border-2 border-gray-500 p-1 md:p-3 rounded outline-none focus:border-purple-500' {...field} {...props}
       />
-      {meta.touched && meta.error ? (
-        <div className='error'>{meta.error}</div>
-      ) : null}
+      {meta.touched && meta.error
+        ? (
+          <div className='error'>{meta.error}</div>
+          ) : null}
     </div>
   )
 }
